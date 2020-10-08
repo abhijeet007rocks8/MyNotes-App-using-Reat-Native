@@ -10,14 +10,15 @@ export default function App() {
   
   if(firebase.apps.length === 0){
     var firebaseConfig = {
-    apiKey: "AIzaSyCwhLECGJVUbY3xJHdCqK9Lzh9b5n8QkSo",
-    authDomain: "mynotes-app-database.firebaseapp.com",
-    databaseURL: "https://mynotes-app-database.firebaseio.com",
-    projectId: "mynotes-app-database",
-    storageBucket: "mynotes-app-database.appspot.com",
-    messagingSenderId: "940304417605",
-    appId: "1:940304417605:web:349e7493cceabb311bf42c"
+    apiKey: "***************************************",
+    authDomain: "**************************************",
+    databaseURL: "*****************************************",
+    projectId: "******************************************",
+    storageBucket: "**********************************",
+    messagingSenderId: "******************",
+    appId: "**************************************"
   };
+    //firebase dtail cannot be shared so used stars
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
   }
